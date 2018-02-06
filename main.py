@@ -102,6 +102,7 @@ def borg(mtrue, mfalse):
 #  the game  #
 ##############
 
+os.system('title Borg v0.1b')
 os.system('cls')
 doggy = Enemy('Tame Dog', 'A tame and cute dog. It has a pink collar.', 10, 'alive')
 print('You decide to go on an adventure, even after your mom told you you\'re too weak for this. You walk far from home, with nothing but an used kitchen knife.')
