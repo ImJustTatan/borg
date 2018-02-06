@@ -10,9 +10,9 @@ Borg is a current WIP that tries to parody a lot of the text adventures from the
 ### Requirements for compiling
 - **Windows XP and higher** *(sorry Linux users)*.
 - **Python 3.X with PIP3**.
-- **The following PIP packages:**
+- **The following PIP packages** *(**Note:** if you don't know what a PIP package is, go do some research or just do not compile and wait for a .exe build)***:**
 	- `termcolor` and `colorama` for vivid and wAcKy colors in your terminal :).
-	- `winsound` for wins and sounds (currently unused, but I will include it in the next version).
+	- ~~`winsound` for wins and sounds (currently unused, but I will include it in the next version).~~ `winsound` comes bundled with Python for Windows, I forgot about that.
 
 ### Compiling from source code
 To compile, having the above requirements, just download the source code from this repo, unpack it in somewhere, go to that somewhere with your terminal and do `python main.py`. **Ta-da!**
