@@ -1,6 +1,6 @@
 # Borg
 ## A fun little Text Adventure parody project
-[![Chat on discord](https://img.shields.io/badge/chat-on%20discord-blue.svg "Tatan's Server")](https://discord.gg/23jN7Na) ![Python Version](https://img.shields.io/badge/python-3.X-yellow.svg "Python Version") ![Version](https://img.shields.io/badge/version-v0.1b-brightgreen.svg "Version")
+[![Chat on discord](https://img.shields.io/badge/chat-on%20discord-blue.svg "Tatan's Server")](https://discord.gg/23jN7Na) ![Python Version](https://img.shields.io/badge/python-3.X-yellow.svg "Python Version") ![Version](https://img.shields.io/badge/version-v0.1b-brightgreen.svg "Version") [![GameJolt](https://img.shields.io/badge/gamejolt-download-green.svg "GameJolt")](https://gamejolt.com/games/borg/317461)
 ---
 ![Screenshot](https://media.discordapp.net/attachments/290169179711995904/410283877433606144/unknown.png "BORG!")
 ---
@@ -10,7 +10,7 @@ Borg is a current WIP that tries to parody a lot of the text adventures from the
 ### Requirements for compiling
 - **Windows XP and higher** *(sorry Linux users)*.
 - **Python 3.X with PIP3**.
-- **The following PIP packages** *(**Note:** if you don't know what a PIP package is, go do some research or just do not compile and wait for a .exe build)***:**
+- **The following PIP packages** *(**Note:** if you don't know what a PIP package is, go do some research or just do not compile and [download a .exe build from GameJolt](https://gamejolt.com/games/borg/317461))***:**
 	- `termcolor` and `colorama` for vivid and wAcKy colors in your terminal :).
 	- ~~`winsound` for wins and sounds (currently unused, but I will include it in the next version).~~ `winsound` comes bundled with Python for Windows, I forgot about that.
 

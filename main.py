@@ -146,6 +146,7 @@ while True:
 	elif choice1.lower().startswith('exit'):
 		cprint('\nYou exited.', 'red', attrs=['bold'])
 		exit()
+		os.system('cls')
 	else:
 		cprint('\nSorry, but I didn\'t understand you.', 'red', attrs=['bold'])
 		error = True
