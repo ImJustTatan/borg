@@ -65,7 +65,7 @@ class Enemy(object):
  		"""Function to get hit. 'hpm' is the amount of HP taken."""
  		hpm = random.randint(hpm1, hpm2)
  		self.hp -= hpm
- 		cprint('\nThe {} has taken {} points of damage!'.format(colored(self.name, attrs=['bold']), colored(str(hpm), 'green', attrs=['bold'])))
+ 		cprint('\nThe {} has taken {} points of damage! Remaining HP: {}'.format(colored(self.name, attrs=['bold']), colored(str(hpm), 'green', attrs=['bold']), colored(str(self.hp), 'green', attrs=['bold'])))
  		if self.hp <= 0:
  			self.chstate('dead')
 
@@ -146,7 +146,6 @@ while True:
 	elif choice1.lower().startswith('exit'):
 		cprint('\nYou exited.', 'red', attrs=['bold'])
 		exit()
-		os.system('cls')
 	else:
 		cprint('\nSorry, but I didn\'t understand you.', 'red', attrs=['bold'])
 		error = True
