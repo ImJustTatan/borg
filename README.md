@@ -18,6 +18,6 @@ Borg is a current WIP that tries to parody a lot of the text adventures from the
 To compile, having the above requirements, just download the source code from this repo, unpack it in somewhere, go to that somewhere with your terminal and do `python main.py`. **Ta-da!**
 
 ### Todo
-- **More enemies.**
+- **~~More enemies.~~** Another enemy added, I'll just add them as the game progresses.
 - **Full plot** (.txt?).
 - **More doggies.**
